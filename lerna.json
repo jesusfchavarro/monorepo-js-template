@@ -3,6 +3,5 @@
   "npmClient": "yarn",
   "version": "independent",
   "useWorkspaces": true,
-  "hoist": true,
   "nohoist": []
 }
