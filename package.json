@@ -7,6 +7,10 @@
   "author": "Jesus F. Chavarro <jesusfchavarro@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "clean": "scripty",
+    "lint": "scripty"
+  },
   "workspaces": [
     "packages/*"
   ],
@@ -15,7 +19,7 @@
     "eslint-config-prettier": "^7.2.0",
     "scripty": "^2.0.0"
   },
-    "scripty": {
+  "scripty": {
     "path": "./scripts/workspace"
   }
 }
