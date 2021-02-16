@@ -1,1 +1,5 @@
 # monorepo-js-template
+
+This is a monorepo templete for JS/TS projects. The be happy and make our life easier we will use some tools like:
+
+## scripty

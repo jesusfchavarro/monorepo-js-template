@@ -1,0 +1,17 @@
+{
+  "name": "package1",
+  "version": "1.0.0",
+  "description": "just another package1",
+  "main": "index.js",
+  "repository": "git@github.com:jesusfchavarro/monorepo-js-template.git",
+  "author": "Jesus F. Chavarro <jesusfchavarro@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "scripty",
+    "lint": "scripty"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
+  }
+}
