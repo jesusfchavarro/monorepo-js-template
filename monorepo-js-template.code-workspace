@@ -2,6 +2,12 @@
   "folders": [
     {
       "path": "."
+    },
+    {
+      "path": "packages/package1"
+    },
+    {
+      "path": "packages/package2"
     }
   ],
   "settings": {}
