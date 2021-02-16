@@ -13,8 +13,5 @@
   },
   "scripty": {
     "path": "../../scripts/packages"
-  },
-  "devDependencies": {
-    "lerna": "^3.22.1"
   }
 }

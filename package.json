@@ -8,18 +8,41 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "clean": "scripty",
-    "lint": "scripty"
+    "lint": "scripty",
+    "commit": "cz"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/config-lerna-scopes": "^11.0.0",
+    "commitlint": "^11.0.0",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^5.0.9",
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^1.0.1",
+    "lint-staged": ">=10",
     "scripty": "^2.0.0"
   },
   "scripty": {
     "path": "./scripts/workspace"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,tsx,jsx}": "yarn lint",
+    "*.{js,jsx,ts,tsx,md,html,css,json,yaml}": "prettier --write"
+  },
+  "volta": {
+    "node": "14.15.5",
+    "yarn": "1.22.10"
   }
 }
