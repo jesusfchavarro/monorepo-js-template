@@ -7,6 +7,22 @@ From now on we refer to the root project like workspace and the subprojects like
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/jesusfchavarro/monorepo-js-template/pulls)
 
+- [monorepo-js-template](#monorepo-js-template)
+  - [Scripty](#scripty)
+  - [Prettier](#prettier)
+  - [ESlint](#eslint)
+  - [Lerna](#lerna)
+    - [`lerna boostrap`](#lerna-boostrap)
+    - [[`lerna add [package]`](https://github.com/lerna/lerna/tree/main/commands/add#readme)](#lerna-add-package)
+    - [[`lerna run [script]`](https://github.com/lerna/lerna/tree/main/commands/run#readme)](#lerna-run-script)
+    - [`lerna clean`](#lerna-clean)
+    - [Bonus: filter-options](#bonus-filter-options)
+  - [conventional-changelog](#conventional-changelog)
+    - [Commitlint](#commitlint)
+    - [Commitizen](#commitizen)
+  - [husky](#husky)
+  - [lint-staged](#lint-staged)
+
 ## [Scripty](https://www.npmjs.com/package/scripty)
 
 The NPM scripts are cool but can get messy over the time and to me it just make sense to have scripts in separate files instead of an unique json file. More if we have more than 1 package.json with repeated script/task.
